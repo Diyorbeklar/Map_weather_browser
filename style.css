@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .container {
+        margin-left: 300px;
+    }
+.water {
+    background-color: rgb(192, 135, 28);
+}
+
+#UZ-QR {
+    fill: #8EC79A;
+}
+
+#UZ-XO {
+    fill: #E49DBD;
+}
+#UZ-NW {
+    fill: #FFEB64;
+}
+#UZ-BU {
+    fill: #BACE6B;
+}
+#UZ-QA {
+    fill: #89B8E4;
+}
+#UZ-SA {
+    fill: #AC8FC7;
+}
+#UZ-SU {
+    fill: #FBD165;
+}
+#UZ-JI{
+    fill: #F8A758;
+}
+#UZ-SI {
+    fill: #E89BBD;
+}
+#UZ-TO {
+    fill: #AC8FC7;
+}
+#UZ-TK {
+    fill: #FFE476;
+}
+#UZ-FA {
+    fill: #B8CF6D;
+}
+#UZ-NG {
+    fill: #FAD068;
+}
+#UZ-AN {
+    fill: rgb(187, 201, 63);
+   
+}
+#TJ-SU {
+    fill: #627977;
+}
+svg path {
+    cursor: pointer;
+}
+svg path:hover {
+    opacity: .6;
+}
+img {
+    height: 100px;
+    width: 100px;
+    padding-left:10px;
+  
+}
+svg path.active {
+    opacity: .6;
+}
+p {
+ padding-left: 100px;
+}
+.card {
+    margin-top: 15px;
+    background-color: beige;
+    margin-left: 500px;
+    width: 500px;
+    -webkit-box-shadow: 33px 30px 3px 3px rgba(54, 72, 86, 0.6);
+-moz-box-shadow: 33px 30px 3px 3px rgba(54, 72, 86, 0.6);
+box-shadow: 33px 30px 3px 3px rgba(54, 72, 86, 0.6);
+}
